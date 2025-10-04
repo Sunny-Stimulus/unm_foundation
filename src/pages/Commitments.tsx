@@ -15,7 +15,7 @@ const commitments = [
         details: "U.N. Mehta Institute of Cardiology and Research Centre (UNMICRC)– Established in 1996 along with Govt. of Gujarat it has been serving the needy for more than 27 years. Started from 75 IPD beds in 1996 to 1200 IPD beds in 2023 it Conducts 2,50,000+ OPDs, 40,000+ IPDs and 6,000+ surgeries each year. UNMICRC is a state-of-the-art cardiac hospital at Ahmedabad (Gujarat) where treatment is rendered to all patients, particularly the economically disadvantaged. Free Cardiac treatment is provided to Gujarat domiciled children and patients from the weaker strata.Apart from Hospital Infrastructure development, Torrent's Patient Care Initiative Programme at UNMICRC has resulted in effective service delivery and better hospital management."
       },
       {
-        name: "REACH -Reach Each Child",
+        name: "REACH - Reach Each Child",
         description: "A Child Healthcare Centric Initiative,",
         details: "In February 2014, a Committee was formed, which decided that the Social initiatives of the group will focus on ‘Child Healthcare’. Twenty leading pediatricians across India were invited for the meeting at Ahmedabad to have understanding of the issues pertaining to the health of children. The meeting was followed by visits by the committee members to some of the leading child care facilities in India and also visited several leading pediatric hospitals in UK, USA and Canada to get a first-hand understanding of the healthcare facilities being provided to the children."
       },

@@ -62,7 +62,7 @@ export default function Contact() {
       phone: formData.phone,
       subject: formData.subject,
       message: formData.message,
-      submission_date: new Date().toLocaleString(), 
+      submission_date: new Date().toLocaleString(),
     };
 
     emailjs
@@ -118,25 +118,24 @@ export default function Contact() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Get In Touch</h2>
           </div>
-
           <div className="flex flex-wrap justify-center gap-6 mb-16">
             {contactInfo.map((info, index) => (
               <Card
                 key={info.title}
-                className="text-center hover:shadow-lg transition-smooth animate-fade-in-up"
+                className="text-center hover:shadow-lg transition-smooth animate-fade-in-up w-72 flex flex-col"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <CardContent className="p-6">
-                  <div className={`inline-flex items-center justify-center w-16 h-16 rounded-full ${info.color} text-white mb-6`}>
-                    <info.icon className="h-8 w-8" />
-                  </div>
-                  <h3 className="text-xl font-semibold mb-4 text-primary">{info.title}</h3>
-                  <div className="space-y-1">
-                    {info.details.map((detail, i) => (
-                      <p key={i} className="text-muted-foreground text-sm leading-relaxed">
-                        {detail}
-                      </p>
-                    ))}
+                <CardContent className="p-4 flex flex-col justify-start h-full">
+                  <div className="flex flex-col items-center">
+                    <div className={`inline-flex items-center justify-center w-14 h-14 rounded-full ${info.color} text-white mb-4`}>
+                      <info.icon className="h-6 w-6" />
+                    </div>
+                    <h3 className="text-lg font-semibold mb-3 text-primary">{info.title}</h3>
+                    <div className="space-y-1 text-sm text-muted-foreground leading-relaxed">
+                      {info.details.map((detail, i) => (
+                        <p key={i}>{detail}</p>
+                      ))}
+                    </div>
                   </div>
                 </CardContent>
               </Card>

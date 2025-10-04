@@ -422,7 +422,6 @@ export default function Index() {
                   Office Address
                 </h2>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  <span className="font-semibold">"UNM Foundation"</span><br />
                   104, "ONE42", South Tower,<br />
                   Opp. Jayantilal Park BRTS,<br />
                   Ambli-Bopal Road,<br />
