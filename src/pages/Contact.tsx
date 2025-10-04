@@ -8,6 +8,7 @@ import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useToast } from "@/components/ui/use-toast";
 import banner from "@/assets/images/Contact_banner.jpg";
+import emailjs from "@emailjs/browser";
 
 const contactInfo = [
   {
@@ -48,11 +49,47 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast({
-      title: "Message sent successfully!",
-      description: "We'll get back to you within 24 hours.",
-    });
-    setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
+
+    const serviceID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const templateID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
+    console.log('ENV CHECK:', serviceID, templateID, publicKey);
+
+    const templateParams = {
+      name: formData.name,
+      email: formData.email,
+      phone: formData.phone,
+      subject: formData.subject,
+      message: formData.message,
+      submission_date: new Date().toLocaleString(), 
+    };
+
+    emailjs
+      .send(serviceID, templateID, templateParams, publicKey)
+      .then(() => {
+        toast({
+          title: "Message sent successfully!",
+          description: "We'll get back to you within 24 hours.",
+        });
+
+        // Reset form state------
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          subject: "",
+          message: "",
+        });
+      })
+      .catch((error) => {
+        console.error("EmailJS error:", error);
+        toast({
+          title: "Failed to send message",
+          description: "Please try again later.",
+          variant: "destructive",
+        });
+      });
   };
 
   const handleInputChange = (field: string, value: string) => {
