@@ -12,39 +12,39 @@ const commitments = [
       {
         name: "UNMICRC",
         description: "U.N. Mehta Institute of Cardiology and Research Centre",
-        details: "U.N. Mehta Institute of Cardiology and Research Centre (UNMICRC)– Established in 1996 along with Govt. of Gujarat it has been serving the needy for more than 27 years. Started from 75 IPD beds in 1996 to 1200 IPD beds in 2023 it Conducts 2,50,000+ OPDs, 40,000+ IPDs and 6,000+ surgeries each year. UNMICRC is a state-of-the-art cardiac hospital at Ahmedabad (Gujarat) where treatment is rendered to all patients, particularly the economically disadvantaged. Free Cardiac treatment is provided to Gujarat domiciled children and patients from the weaker strata.Apart from Hospital Infrastructure development, Torrent's Patient Care Initiative Programme at UNMICRC has resulted in effective service delivery and better hospital management."
+        details: "UNMICRC in Ahmedabad is a 1,251-bed cardiac hospital offering free, world-class treatment to economically weaker sections, with 95,000+ surgeries and global recognition for excellence. Sumangal in Surat is a multidisciplinary clinic providing comprehensive care across 15 specialties to over 1.4 lakh patients. Sankalan in Ahmedabad is a Neuro Rehabilitation Centre combining advanced diagnostics, robotics, and therapy to restore independence and confidence in patients recovering from neurological conditions."
       },
       {
         name: "REACH - Reach Each Child",
         description: "A Child Healthcare Centric Initiative,",
-        details: "In February 2014, a Committee was formed, which decided that the Social initiatives of the group will focus on ‘Child Healthcare’. Twenty leading pediatricians across India were invited for the meeting at Ahmedabad to have understanding of the issues pertaining to the health of children. The meeting was followed by visits by the committee members to some of the leading child care facilities in India and also visited several leading pediatric hospitals in UK, USA and Canada to get a first-hand understanding of the healthcare facilities being provided to the children."
+        details: "The UNM Children Hospital in Kamrej, Surat, is a 150-bed hub providing advanced paediatric and surgical care, having served over 1.8 lakh patients and conducted 4,300+ surgeries. It is supported by 17 Paediatric Primary Healthcare Centres (PPHCs) across Gujarat and Uttar Pradesh that have facilitated 7 lakh+ consultations, delivering free medical care, tests, and medicines to rural communities. Village-level screening camps have identified and treated over 1.8 lakh children for malnutrition and anaemia, with a 70% recovery rate. Awareness drives on nutrition and hygiene have reached 1 lakh+ beneficiaries, while the Muskaan menstrual wellness initiative has empowered 1 lakh+ adolescent girls in 1,700+ villages through health education and eco-friendly sanitary pad distribution."
       },
-      {
-        name: "Activities under REACH",
-        description: "Grass Root Interventions",
-        details: "",
-        listItems: ["Conducting focused camps and spreading awareness about Child healthcare",
-          "During outreach activities, children needing clinical interventions are referred to our nearest Pediatric Primary Healthcare Centers (PPHCs) and subsequently, if required, they are then taken to the UNM Children Hospital for secondary and tertiary treatment",
-          "Identifying cases of malnutrition & anemia and distributing nutritional supplements and iron supplements",
-          "More than 1,990 villages have been covered",
-          "1.8 lakh children screened and more than 72,500 children have been successfully brought out of malnutrition and anemia with focused efforts and rigorous monitoring.",
-        ]
-      },
-      {
-        name: "Activities under REACH",
-        description: "UNM Children Hospital",
-        // details: "The Hospital has been operational since 2020 and provides Secondary and Tertiary treatment to children",
-        listItems: ["150 beds",
-          "3 Operation Theatres",
-          "20 bed NICU; 17 bed PICU",
-          "2 lacs+ OPDs till now",
-          "1900+ Surgeries conducted till now, including complex / critical / life-saving surgeries",
-          "NABH Certified Hospital",
-          "Patients from different parts of the country are coming for treatment"
-        ],
-        // details1: "UNM Children Hospital",
-        // details2: "Sumangal"
-      },
+      // {
+      //   name: "Activities under REACH",
+      //   description: "Grass Root Interventions",
+      //   details: "",
+      //   listItems: ["Conducting focused camps and spreading awareness about Child healthcare",
+      //     "During outreach activities, children needing clinical interventions are referred to our nearest Pediatric Primary Healthcare Centers (PPHCs) and subsequently, if required, they are then taken to the UNM Children Hospital for secondary and tertiary treatment",
+      //     "Identifying cases of malnutrition & anemia and distributing nutritional supplements and iron supplements",
+      //     "More than 1,990 villages have been covered",
+      //     "1.8 lakh children screened and more than 72,500 children have been successfully brought out of malnutrition and anemia with focused efforts and rigorous monitoring.",
+      //   ]
+      // },
+      // {
+      //   name: "Activities under REACH",
+      //   description: "UNM Children Hospital",
+      //   // details: "The Hospital has been operational since 2020 and provides Secondary and Tertiary treatment to children",
+      //   listItems: ["150 beds",
+      //     "3 Operation Theatres",
+      //     "20 bed NICU; 17 bed PICU",
+      //     "2 lacs+ OPDs till now",
+      //     "1900+ Surgeries conducted till now, including complex / critical / life-saving surgeries",
+      //     "NABH Certified Hospital",
+      //     "Patients from different parts of the country are coming for treatment"
+      //   ],
+      //   // details1: "UNM Children Hospital",
+      //   // details2: "Sumangal"
+      // },
     ]
   },
   {
@@ -55,12 +55,12 @@ const commitments = [
       {
         name: "Shikshasetu",
         // description: "Comprehensive education program for rural and urban communities",
-        details: "The Foundation advances education through Shardashish schools and the Shiksha Setu programme. Shardashish has built or upgraded 6 schools with 141 classrooms and modern facilities, benefiting 4,000+ students. Shiksha Setu, launched in 2011, reaches 117 schools across 112+ villages, impacting 30,000+ students, 250+ teachers, and 3,500+ parents. The programme focuses on student learning assessment, teacher training, ICT tools, and community awareness. Phase II adds smart digital classrooms, expanded tablet learning, and enhanced soft skills for teachers and parents."
+        details: "UNM Foundation’s education initiatives under Shiksha Setu aim to enhance learning quality, reduce educational gaps, and build employability for underserved communities. The Learning Enhancement Programme has benefitted 29,000+ students across 117 rural schools through digital and remedial learning, while Balvatika supports early education for 1,100+ children in 15 schools. SuGanitam promotes hands-on math learning in 25 schools, and the Second Chance Programme helps school dropouts complete Class 10 through NIOS. The initiative now targets 35,000+ students in 150+ government schools to ensure 100% school completion."
       },
       {
         name: "Shardashish Scholarship Programme",
         // description: "Global educational opportunities for economically challenged students",
-        details: "Shardashish Scholarships provide financial aid to students from economically weaker sections of Gujarat aspiring for higher studies in US universities, including $50,000 annual support for select Columbia University courses. The programme aims to open global opportunities for bright, committed students. Scholars are encouraged to push boundaries, excel, and pay it forward by enabling others. Applications, along with required documents, can be emailed to shardashish@unmfoundation.com. The last date for submission is 31st May, 2025.",
+        details: "The Shardashish School Initiative develops and upgrades school infrastructure to provide safe, modern learning environments. Seven schools serving around 5,000 students have been enhanced, including new buildings, labs, libraries, and playgrounds. Notable projects include campuses in Chhapi, Indrad, Memadpur, Akhakhol, and Sabarmati. Additionally, the Shardashish Scholarship supports over 55 students pursuing higher education in the U.S. with $10,000 each.",
         link: "https://unmfoundation.com/tpl/r/unm/site/home"
       }
     ]
@@ -73,14 +73,14 @@ const commitments = [
       {
         name: "Abhivyakti",
         // description: "Garden and lake restoration initiative",
-        details: "Initiated by the UNM Foundation, Abhivyakti showcases original, multi-disciplinary art that has shaped Ahmedabad’s cultural scene and provides a platform for local creative talent. Aiming to make art accessible to all, it breaks the notion that art is a privilege. Covering dance, music, painting, photography, installations, and theatre, Abhivyakti brings international-quality art to the public free of cost, fostering dialogue and creative expression.",
+        details: "The Abhivyakti City Arts Project makes art accessible to all, uniting artists and communities through free, inclusive creative experiences. Launched in 2018, it showcases emerging and established artists across dance, music, theatre, and visual arts. Selected projects receive mentorship, developmental support, and financial assistance before being presented at a 15-day annual event in Ahmedabad. As of November 2024, over 600 artists have participated in 400+ performances, reaching more than 6 lakh attendees.",
         link2: "https://abhivyaktiart.org/"
       },
-      {
-        name: "Ujaas",
-        // description: "The City Arts Project",
-        details: "Ujaas is an initiative by UNM Foundation to support and improve the lives of senior citizens in old age homes. It aims to provide quality care, companionship, emotional support, and recreational activities to ensure dignity and well-being. Since its launch in August 2023, Ujaas has reached 106 old age homes, benefiting over 5,000 residents through 1,000+ visits by more than 1,100 volunteers."
-      },
+      // {
+      //   name: "Ujaas",
+      //   // description: "The City Arts Project",
+      //   details: "Ujaas is an initiative by UNM Foundation to support and improve the lives of senior citizens in old age homes. It aims to provide quality care, companionship, emotional support, and recreational activities to ensure dignity and well-being. Since its launch in August 2023, Ujaas has reached 106 old age homes, benefiting over 5,000 residents through 1,000+ visits by more than 1,100 volunteers."
+      // },
     ]
   },
   {
@@ -91,13 +91,18 @@ const commitments = [
       {
         name: "Pratiti",
         // description: "Shetrunjay Hills, Palitana restoration project",
-        details: "City parks are vital for the social, economic, and physical wellbeing of urban communities, providing spaces for recreation, interaction, and healthy lifestyles. The UNM Foundation, along with LEAF and Ahmedabad Municipal Corporation, launched ‘Pratiti’ to develop and maintain parks across varied neighborhoods. So far, 15 beautifully landscaped gardens in Ahmedabad, Surat, and Daman have been completed, featuring lawns, plants, walkways, exercise equipment, inclusive entrances, and sustainable water systems. Several parks are refurbished, and more are planned, including in underprivileged areas. Additionally, two lakes have been restored to international standards. UNM Foundation is also undertaking the ecological restoration of Shetrunjay Hills, Palitana, preserving an important ecological and religious site."
+        details: "The Pratiti Programme transforms neglected urban parks and public spaces into sustainable ecological zones for recreation, play, cultural events, and reflection. Initiated in 1995 with Parimal Garden and formalized in 2016 as a PPP, it now manages 8.44 lakh sq. metres, including 17 parks, 2 lakes, an urban forest, and Shentrunjay Hills afforestation, benefiting over 60 lakh people annually. Key redevelopments include parks in Ahmedabad, Surat, and Daman. The initiative is now expanding to Mumbai. The programme also enhances biodiversity, air quality, carbon absorption, and rainwater collection.",
+        listItems: ["IMPACT",
+          "8L + OPDs conducted",
+          "117+ schools covered",
+          "600+ artists supported",
+          "844000 square metres green area restored"]
       },
-      {
-        name: "Green Cover",
-        // description: "Large-scale tree plantation across multiple states",
-        details: "Over 43% of SUGEN and 40% of DGEN Plant areas are under green cover, exceeding statutory norms. At SUGEN, over 1,28,000 trees have been planted, including 893 transplanted with a 77% success rate, and mangroves have been planted on 50 hectares near DGEN to prevent soil erosion. Green periphery plantations, rainwater harvesting, and sustainable bio-waste management enhance environmental sustainability. The Urja Dweep residential complex at SUGEN is fully self-energizing using green power and a bio-gas plant. All manufacturing and research facilities are zero-discharge sites, and income from plantations benefits local communities. Additional infrastructure upgrades are planned at Dahej, Vizag, and Pithampur locations."
-      }
+      // {
+      //   name: "Green Cover",
+      //   // description: "Large-scale tree plantation across multiple states",
+      //   details: "Over 43% of SUGEN and 40% of DGEN Plant areas are under green cover, exceeding statutory norms. At SUGEN, over 1,28,000 trees have been planted, including 893 transplanted with a 77% success rate, and mangroves have been planted on 50 hectares near DGEN to prevent soil erosion. Green periphery plantations, rainwater harvesting, and sustainable bio-waste management enhance environmental sustainability. The Urja Dweep residential complex at SUGEN is fully self-energizing using green power and a bio-gas plant. All manufacturing and research facilities are zero-discharge sites, and income from plantations benefits local communities. Additional infrastructure upgrades are planned at Dahej, Vizag, and Pithampur locations."
+      // }
     ]
   }
 ];
@@ -125,9 +130,8 @@ export default function Commitments() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Our Commitments</h2>
             <p>
-              Torrent Group concentrates its efforts diligently in the areas of:
-            Community Health care, Sanitation and Hygiene ,Education and Knowledge Enhancement, Arts, Culture and Wellbeing, Ecology
-            The CSR activities are mainly confined at the places where Group’s headquarters are situated and locations in and around its operations so that the twin objectives of service to the neighbourhood & the community along with involving the individual & collective will and efforts of the Torrent Family can be achieved.</p>
+              Inspired by Shri U. N. Mehta and Shrimati Shardaben Mehta's strong belief in giving back to society, the Foundation builds on their legacy of meaningful contributions in education, healthcare, and well – being of society. The Foundation is currently active in Gujarat, Uttar Pradesh, and Maharashtra, positively impacting the lives of over 10 million people. With a clear vision and committed action, UNM aims to strengthen its impact in the years ahead.
+            </p>
           </div>
 
           <div className="space-y-16">

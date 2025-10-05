@@ -1,7 +1,7 @@
 import { Heart, Target, Eye, Users } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import banner from "@/assets/images/banner.png";
-import structure from "@/assets/images/UNMFoundationStructure.jpg";
+import structure from "@/assets/images/UNMFoundationStructure.png";
 import founder from "@/assets/images/unm-founder.jpg";
 
 export default function About() {
@@ -26,31 +26,24 @@ export default function About() {
       <section className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-8 text-center">Our Story</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-8 text-center">About Us</h2>
 
             <div className="prose prose-lg max-w-none text-muted-foreground">
-              <h3>UNM Foundation, named after Shri UN Mehta, the Founder of Torrent Group, is a non profit organisation. The UNM Foundation carries out Social and Philanthropic activities, with focus on Community Healthcare, Education & Knowledge Enhancement, Arts & Culture and Ecology. UNM Foundation strives to ensure that the aggregate impact of its initiatives bring about lasting improvements in society.</h3>
-              <p className="text-lg text-black leading-relaxed mb-6 mt-8">
-                Key Priorities of UNM Foundation
-              </p>
-              <li>Community Healthcare
-                REACH – Reach Each Child program (details appended hereunder).
-                UN Mehta Institute of Cardiology and Research Centre – a 1200 bed state-of-the-art cardiac facility; established in 1996 with support of Govt. of Gujarat</li>
-              <li>Education & Knowledge Enhancement:
-                Shikshasetu – an initiative to enhance learning of school children and also upgrade infrastructure in identified schools. A total of 117 schools providing education to more than 30,000 students annually are covered under this initiative.
-              </li>
-              <li>
-                Arts & Culture:
-                Abhivyakti–a unique city arts project that promotes Visual Arts, Theatre, Dance & Music. In the recently concluded 6th edition, over 3.24 lac people visited and enjoyed the 140 Performances and 47 Visual Art works presented by 96 artists.
-              </li>
-              <li>
-                Ecology:
-                Pratiti – an initiative to restore old and create new Gardens and Lakes. So far, a total of 15 Gardens and 2 Lakes across 2 cities have been restored / built at par with international standards. Reflecting their popularity within the community, the Parks and Lakes receive annual footfalls of more than 56 lacs.
-                Ecological restoration of Shetrunjay Hills, Palitana (Gujarat). As part of this challenging project, UNM Foundation endeavours to restore the Shetrunjay Hills, an extremely important ecological and religious site, to its lost glory.
-              </li>
-              <p className="text-lg text-black leading-relaxed mb-6 mt-4">
-                By constantly refining its approach, the UNM Foundation strives to ensure that the aggregate power of its initiatives bring about lasting improvements in society.
-              </p>
+              <h3>
+                UNM Foundation was established by the Mehta family of the Torrent group to carry forward the founder's vision and values. The Foundation works with a strong commitment to create meaningful change across the sectors of art & culture, healthcare, education and enhancement of employability, regeneration of the environment and urban renewal. Torrent's governance philosophy emphasizes well-being of people and society.
+              </h3>
+              <h4 className="mt-4">
+                Shri U. N. Mehta, a medical representative with remarkable foresight, laid the foundation of Torrent in 1959 by leveraging niche marketing as a strategic strength. What began as a personal journey rooted in the simple but powerful philosophy of 'happiness for all', evolved into a dynamic enterprise shaping lives across healthcare and energy – two of the most vital sectors of modern living. From pioneering pharmaceutical research and life-saving treatments to driving innovation in power generation, green hydrogen, EV charging infrastructure, and city gas distribution, the Group continues to lead the charge toward a sustainable and inclusive future.
+              </h4>
+              <h4 className="mt-4">
+                Under the leadership of Mr. Sudhir Mehta and Mr. Samir Mehta, Torrent progresses ahead with a clear focus on governance, community well-being, and innovation.
+              </h4>
+              <h4 className="mt-4">
+                During the COVID-19 pandemic, Torrent contributed Rs. 100 crore to support the government's efforts and ensured full wages to all employees, including contract and construction workers.
+              </h4>
+              <h4 className="mt-4">
+                On the birth centenary of Shri U. N. Mehta in 2024, the Mehta Family pledged Rs. 5,000 crore to the Foundation over five years - reaffirming their deep commitment to social good and transformative impact.
+              </h4>
             </div>
           </div>
         </div>

@@ -81,7 +81,7 @@ export default function Footer() {
 </div>
 <div className="flex items-center space-x-3">
 <Mail className="h-4 w-4 text-primary-foreground/80" />
-<span className="text-sm text-primary-foreground/80">jyuthika@unmfoundation.com</span>
+<span className="text-sm text-primary-foreground/80">Jalasmi.hathi@unmfoundation.com</span>
 </div>
 </div>
 </div>

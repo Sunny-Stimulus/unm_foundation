@@ -26,13 +26,13 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone",
-    details: ["+91 7926628000"],
+    details: ["+91 6357437286"],
     color: "bg-green-500"
   },
   {
     icon: Mail,
     title: "Email",
-    details: ["jyuthika@unmfoundation.com"],
+    details: ["Jalasmi.hathi@unmfoundation.com"],
     color: "bg-purple-500"
   },
 ];
@@ -151,7 +151,7 @@ export default function Contact() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Contact Us</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Have a question or want to discuss a partnership? Fill out the form or check our location on the map.
+              {/* Have a question or want to discuss a partnership? Fill out the form or check our location on the map. */}
             </p>
           </div>
 

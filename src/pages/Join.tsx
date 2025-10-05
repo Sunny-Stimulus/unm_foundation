@@ -47,7 +47,7 @@ export default function Join() {
                 Holistic development of our employees is of prime importance for us. We believe that to perform to perfection one needs to enjoy what he is doing. Hence we create an encouraging and conducive work environment for the employees that keeps the zeal to perform alive.
               </p>
               <h3 className="text-xl font-medium mt-4">
-                Submit your resume for future reference to jyuthika@unmfoundation.com
+                Submit your resume for future reference to "Jalasmi.hathi@unmfoundation.com"
               </h3>
             </div>
           </div>
@@ -55,7 +55,7 @@ export default function Join() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-16 lg:py-24">
+      {/* <section className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Frequently Asked Questions</h2>
@@ -93,7 +93,7 @@ export default function Join() {
             </Card>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

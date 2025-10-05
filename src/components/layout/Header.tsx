@@ -8,7 +8,7 @@ const navigationItems = [
   { name: "Home", href: "/" },
   { name: "About Us", href: "/about" },
   { name: "Our Commitments", href: "/commitments" },
-  { name: "Gallery", href: "/gallery" },
+  // { name: "Gallery", href: "/gallery" },
   { name: "Join Us", href: "/join" },
   { name: "Contact Us", href: "/contact" },
 ];
