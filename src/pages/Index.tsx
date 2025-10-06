@@ -1,4 +1,4 @@
-import { ArrowRight, Users, GraduationCap, TreePine, Heart, Palette, Calendar, Stethoscope } from "lucide-react";
+import { ArrowRight, Users, GraduationCap, TreePine, Heart, Syringe, Palette, Calendar, Stethoscope } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -65,7 +65,7 @@ const quickFacts = [
   {
     number: "99,000+",
     label: "Surgeries",
-    icon: Heart,
+    icon: Syringe,
   },
   {
     number: "6,00,000+",

@@ -92,7 +92,8 @@ const commitments = [
         name: "Pratiti",
         // description: "Shetrunjay Hills, Palitana restoration project",
         details: "The Pratiti Programme transforms neglected urban parks and public spaces into sustainable ecological zones for recreation, play, cultural events, and reflection. Initiated in 1995 with Parimal Garden and formalized in 2016 as a PPP, it now manages 8.44 lakh sq. metres, including 17 parks, 2 lakes, an urban forest, and Shentrunjay Hills afforestation, benefiting over 60 lakh people annually. Key redevelopments include parks in Ahmedabad, Surat, and Daman. The initiative is now expanding to Mumbai. The programme also enhances biodiversity, air quality, carbon absorption, and rainwater collection.",
-        listItems: ["IMPACT",
+        details2:"IMPACT",
+        listItems: [
           "8L + OPDs conducted",
           "117+ schools covered",
           "600+ artists supported",
@@ -164,8 +165,12 @@ export default function Commitments() {
                         <p className="text-muted-foreground leading-relaxed">
                           {initiative.details}
                         </p>
+                        
                         {initiative.listItems && Array.isArray(initiative.listItems) && (
                           <ul className="list-disc list-inside mt-4 space-y-2">
+                            {initiative.details2 && (
+                              <h5 className="text-lg text-primary mb-2">{initiative.details2}:</h5>
+                            )}
                             {initiative.listItems.map((item: string, index: number) => (
                               <li key={index} className="text-muted-foreground">
                                 {item}

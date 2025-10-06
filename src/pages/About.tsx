@@ -52,7 +52,7 @@ export default function About() {
       {/* Image Section */}
       <section className="py-16 lg:py-24 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-5xl mx-auto">
             <div className="relative rounded-lg overflow-hidden shadow-lg">
               <img
                 src={structure}

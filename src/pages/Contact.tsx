@@ -167,6 +167,7 @@ export default function Contact() {
                         <Label htmlFor="name">Full Name *</Label>
                         <Input
                           id="name"
+                          placeholder="Your full name"
                           value={formData.name}
                           onChange={(e) => handleInputChange('name', e.target.value)}
                           required
@@ -177,6 +178,7 @@ export default function Contact() {
                         <Input
                           id="email"
                           type="email"
+                          placeholder="Your email address"
                           value={formData.email}
                           onChange={(e) => handleInputChange('email', e.target.value)}
                           required
@@ -189,6 +191,7 @@ export default function Contact() {
                         <Label htmlFor="phone">Phone Number</Label>
                         <Input
                           id="phone"
+                          placeholder="Your phone number"
                           value={formData.phone}
                           onChange={(e) => handleInputChange('phone', e.target.value)}
                         />
@@ -217,7 +220,7 @@ export default function Contact() {
                         id="message"
                         value={formData.message}
                         onChange={(e) => handleInputChange('message', e.target.value)}
-                        placeholder="Please share your message, questions, or how you'd like to get involved..."
+                        placeholder="Your message..."
                         className="min-h-32"
                         required
                       />
