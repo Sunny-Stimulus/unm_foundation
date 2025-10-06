@@ -1,4 +1,4 @@
-import { ArrowRight, Users, GraduationCap, TreePine, Heart, MapPin, Calendar } from "lucide-react";
+import { ArrowRight, Users, GraduationCap, TreePine, Heart, Palette, Calendar, Stethoscope } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -48,29 +48,29 @@ const initiatives = [
 
 const quickFacts = [
   {
-    number: "198,000+",
-    label: "Children reached",
-    icon: Users,
+    number: "46,00,000+",
+    label: "Medical Consultations",
+    icon: Stethoscope,
   },
   {
-    number: "30,000+",
+    number: "33,000+",
     label: "Students covered",
     icon: GraduationCap,
   },
   {
-    number: "128,000+",
-    label: "Trees Planted",
+    number: "5,59,000+",
+    label: "Trees & Shrubs Planted",
     icon: TreePine,
   },
   {
-    number: "3,600+",
-    label: "Surgeries Conducted",
+    number: "99,000+",
+    label: "Surgeries",
     icon: Heart,
   },
   {
-    number: "34",
-    label: "Locations Covered",
-    icon: MapPin,
+    number: "6,00,000+",
+    label: "Audience for new art",
+    icon: Palette,
   },
 ];
 

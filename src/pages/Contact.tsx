@@ -15,7 +15,6 @@ const contactInfo = [
     icon: MapPin,
     title: "Office Address",
     details: [
-      '"UNM Foundation",',
       "104,South Tower, \"ONE42\",",
       "Ambli-Bopal Road,",
       "Ahmedabad-380058",

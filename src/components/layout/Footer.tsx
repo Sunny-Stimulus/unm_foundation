@@ -31,9 +31,9 @@ export default function Footer() {
 <Link to="/commitments" className="block text-sm text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
                 Our Commitments
 </Link>
-<Link to="/gallery" className="block text-sm text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
+{/* <Link to="/gallery" className="block text-sm text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
                 Gallery
-</Link>
+</Link> */}
 <Link to="/join" className="block text-sm text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
                 Join Us
 </Link>
@@ -56,9 +56,9 @@ export default function Footer() {
 <Link to="https://abhivyaktiart.org/" className="block hover:text-primary-foreground transition-smooth">
   Abhivyakti
 </Link>
-<Link to="/commitements" className="block hover:text-primary-foreground transition-smooth">
+{/* <Link to="/commitements" className="block hover:text-primary-foreground transition-smooth">
   Ujaas
-</Link>
+</Link> */}
 <Link to="/commitements" className="block hover:text-primary-foreground transition-smooth">
   Pratiti
 </Link>

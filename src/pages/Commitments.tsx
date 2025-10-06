@@ -1,4 +1,4 @@
-import { Heart, GraduationCap, Users, TreePine, Stethoscope, Palette } from "lucide-react";
+import { Heart, GraduationCap, Users, TreePine, Stethoscope, Palette,House } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import banner from "@/assets/images/UN_Mehta_Institute_of_Cardiology.jpg";
@@ -220,17 +220,17 @@ export default function Commitments() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-red-100 text-red-600 mb-4">
-                <Stethoscope className="h-8 w-8" />
+                <House className="h-8 w-8" />
               </div>
-              <div className="text-3xl font-bold text-primary mb-2">6.2L+</div>
-              <div className="text-muted-foreground font-medium">OPDs Conducted</div>
+              <div className="text-3xl font-bold text-primary mb-2">3762+</div>
+              <div className="text-muted-foreground font-medium">Villages served</div>
             </div>
 
             <div className="text-center">
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-green-100 text-green-600 mb-4">
                 <GraduationCap className="h-8 w-8" />
               </div>
-              <div className="text-3xl font-bold text-primary mb-2">117+</div>
+              <div className="text-3xl font-bold text-primary mb-2">164+</div>
               <div className="text-muted-foreground font-medium">Schools Covered</div>
             </div>
 
@@ -238,7 +238,7 @@ export default function Commitments() {
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-purple-100 text-purple-600 mb-4">
                 <Palette className="h-8 w-8" />
               </div>
-              <div className="text-3xl font-bold text-primary mb-2">700+</div>
+              <div className="text-3xl font-bold text-primary mb-2">600+</div>
               <div className="text-muted-foreground font-medium">Artists Supported</div>
             </div>
 
@@ -246,8 +246,8 @@ export default function Commitments() {
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-emerald-100 text-emerald-600 mb-4">
                 <TreePine className="h-8 w-8" />
               </div>
-              <div className="text-3xl font-bold text-primary mb-2">15</div>
-              <div className="text-muted-foreground font-medium">Gardens Restored</div>
+              <div className="text-3xl font-bold text-primary mb-2">844000sqft</div>
+              <div className="text-muted-foreground font-medium">Garden Area Restored</div>
             </div>
           </div>
         </div>
