@@ -11,6 +11,8 @@ import Gallery from "./pages/Gallery";
 import Join from "./pages/Join";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import Disclaimer from "./pages/Disclaimer";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 const queryClient = new QueryClient();
 
@@ -28,6 +30,8 @@ const App = () => (
             {/* <Route path="/gallery" element={<Gallery />} /> */}
             <Route path="/join" element={<Join />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
+            <Route path="/disclaimer" element={<Disclaimer/>} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

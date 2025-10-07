@@ -59,7 +59,7 @@ export default function Footer() {
 {/* <Link to="/commitements" className="block hover:text-primary-foreground transition-smooth">
   Ujaas
 </Link> */}
-<Link to="/commitements" className="block hover:text-primary-foreground transition-smooth">
+<Link to="" className="block hover:text-primary-foreground transition-smooth">
   Pratiti
 </Link>
 </div>
@@ -87,10 +87,25 @@ export default function Footer() {
 </div>
 </div>
  
-        <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
-<p className="text-sm text-primary-foreground/60">
-            © 2024 UNM Foundation. All rights reserved.
-</p>
+<div className="border-t border-primary-foreground/20 mt-8 pt-8">
+  <div className="flex justify-between items-center text-sm text-primary-foreground/60">
+    <p>© 2024 UNM Foundation. All rights reserved.</p>
+
+    <div className="flex gap-4">
+      <Link to="/privacy-policy" className="hover:underline">
+        Privacy Policy
+      </Link>
+      <Link to="/disclaimer" className="hover:underline">
+        Disclaimer
+      </Link>
+      {/* <a href="https://www.torrentpower.com/index.php/site/info/disclaimer" className="hover:underline">
+        Disclaimer
+        </a> */}
+        {/* <a href="https://www.torrentpower.com/index.php/site/info/privacy" className="hover:underline">
+          Privacy Policy
+        </a> */}
+    </div>
+  </div>
 </div>
 </div>
 </footer>

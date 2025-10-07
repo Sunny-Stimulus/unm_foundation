@@ -27,7 +27,7 @@ import { useNavigate } from "react-router-dom";
 
 const initiatives = [
   {
-    img: unm
+    img: unm,
   },
   {
     img: reach

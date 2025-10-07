@@ -53,8 +53,6 @@ export default function Contact() {
     const templateID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
     const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
-    console.log('ENV CHECK:', serviceID, templateID, publicKey);
-
     const templateParams = {
       name: formData.name,
       email: formData.email,
@@ -198,7 +196,15 @@ export default function Contact() {
                       </div>
                       <div className="space-y-2">
                         <Label htmlFor="subject">Subject *</Label>
-                        <Select value={formData.subject} onValueChange={(value) => handleInputChange('subject', value)}>
+                        <Input
+                          id="subject"
+                          value={formData.subject}
+                          onChange={(e) => handleInputChange('subject', e.target.value)}
+                          placeholder="Your subject..."
+                          // className="min-h-32"
+                          required
+                        />
+                        {/* <Select value={formData.subject} onValueChange={(value) => handleInputChange('subject', value)}>
                           <SelectTrigger>
                             <SelectValue placeholder="Select a subject" />
                           </SelectTrigger>
@@ -210,7 +216,7 @@ export default function Contact() {
                             <SelectItem value="media">Media & Press</SelectItem>
                             <SelectItem value="other">Other</SelectItem>
                           </SelectContent>
-                        </Select>
+                        </Select> */}
                       </div>
                     </div>
 
